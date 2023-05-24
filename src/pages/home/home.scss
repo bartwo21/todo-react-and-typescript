@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// Variables
+$primary-color: #ff0000;
+$secondary-color: #00ff00;
+
+// Styles
+.home {
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+body {
+  background-image: url(../../img/blue-overlay.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}

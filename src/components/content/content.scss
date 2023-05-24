@@ -1,0 +1,63 @@
+.content-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.content-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  font-size: 0.8rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  width: 300px;
+  max-width: 94%;
+  resize: none;
+  &:focus {
+    outline: none;
+    border: 1px solid #0261f0;
+  }
+}
+
+.content-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.content-button {
+  padding: 6px 16px;
+  margin: 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content-add-button {
+  color: #ffffff;
+  background-color: #0261f0;
+}
+
+.content-cancel-button {
+  color: #7d889b;
+}
+
+.content-open-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content-open-button:hover {
+  background-color: #f0f0f0;
+}

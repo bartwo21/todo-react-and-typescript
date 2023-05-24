@@ -1,0 +1,139 @@
+.card {
+  position: relative;
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  background-color: #f1f2f4;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  .title-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title-input {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #000;
+      margin: 10px;
+      padding: 3px 10px;
+      width: 80%;
+      border: 2px solid #3789f5;
+      border-radius: 5px;
+
+      &:hover {
+        cursor: pointer;
+        border: 2px solid #3789f5;
+      }
+    }
+    button {
+      border: none;
+      font-weight: 600;
+      margin-right: 10px;
+      padding: 10px;
+      padding-top: 6px;
+      border-radius: 5px;
+      &:hover {
+        background-color: #d0d4db;
+        cursor: pointer;
+      }
+    }
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: #000;
+      padding: 15px 20px;
+      width: 80%;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    .card-p {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 3px;
+      width: 100%;
+      border-radius: 10px;
+      margin: 10px 15px 0 15px;
+      .plus-icon {
+        color: #7d889b;
+        margin-left: 5px;
+        font-size: 0.9rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+        padding: 5px;
+        color: #7d889b;
+      }
+
+      &:hover {
+        background-color: #d0d4db;
+        cursor: pointer;
+      }
+    }
+
+    .template-icon {
+      color: #7d889b;
+      margin-right: 5px;
+      padding: 10px 8px;
+      border-radius: 10px;
+      &:hover {
+        background-color: #d0d4db;
+        cursor: pointer;
+      }
+    }
+  }
+  .content-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px 10px 0 10px;
+
+    .content-p {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      width: 100%;
+      padding: 5px 12px;
+      color: #000000;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+      margin-bottom: 3px;
+      &:hover {
+        background-color: #e7e5e5;
+      }
+      .pencil-icon {
+        display: flex;
+        opacity: 0;
+        font-size: 0.9rem;
+        color: #333333;
+        margin: 3px 0 0;
+        border-radius: 9px;
+        padding: 8px 10px;
+        &:hover {
+          opacity: 100%;
+          background-color: #d6d6d6;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
